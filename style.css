@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 7vmax 0;
+    
+    justify-content: center;
+}
+.Manue-Head{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Manue-Head h1{
+    font-size: 3.5vmax;
+    letter-spacing: .2vmax;
+    margin-bottom: 2vmax;
+}
+.Manue-Head h1::after{
+    display: block;
+    content: "";
+    width: 8vmax;
+    height: .3vmax;
+    background-color: goldenrod;
+    margin: auto;
+    margin-top: 1vmax;
+}
+.button{
+    display: flex;
+    gap: .4vmax;
+    justify-content: center;
+}
+button{
+    padding: .3vmax 2vmax;
+    font-size: 1.4vmax;
+    color: goldenrod;
+    border: 1px solid goldenrod;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 6px ;
+}
+/* ///////////////////////////////////////MainItemSection///////////////////////////// */
+.MainItemSection{
+    width: 80%;
+    margin: 4vmax auto;
+    display: flex;
+    gap: 1vmax;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.LeftItem{
+    display: flex;
+    gap: .2vmax;
+    flex-basis: 498px;
+}
+.Image{
+    width: 130%;
+    border-radius: 4px;
+    border: 2px solid goldenrod;
+    height: 110px;
+}
+.Image img{
+    width: 100%;
+    height: 100%;
+}
+.explaneHead{
+    display: flex;
+    border-bottom: 1px solid gray;
+    padding:  .2vmax .5vmax;
+    gap: 1vmax;
+}
+.explaneHead h1{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: .1vmax;
+    padding-right: 70px;
+}
+.explaneHead span{
+    color: goldenrod;
+    font-weight: 700;
+}
+
+
+
